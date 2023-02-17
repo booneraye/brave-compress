@@ -23,7 +23,7 @@ const Header = () => {
 
     const [open, setOpen] = useState(false)
   return (
-    <Navbar type="dark" theme="primary" expand="md">
+    <Navbar type="dark" expand="md">
       <NavbarBrand href="#">Brave Compress</NavbarBrand>
       <NavbarToggler onClick={() => setOpen(!open)} />
 
