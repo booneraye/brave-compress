@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.row{
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 nav {
   background-color: #ce2c5a !important;

@@ -30,16 +30,20 @@ const Header = () => {
       <Collapse open={open} navbar>
         <Nav navbar>
           <NavItem>
-            <NavLink href="#">
+            <NavLink href="/">
               Compress Image
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
-              Compress PDF
+            <NavLink href="/encrypt">
+              Encrypt Data
             </NavLink>
           </NavItem>
-          
+          <NavItem>
+            <NavLink href="/file-to-base64">
+              file to Base64
+            </NavLink>
+          </NavItem>
         </Nav>
 
         <Nav navbar className="ml-auto">
